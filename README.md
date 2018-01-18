@@ -1,34 +1,35 @@
-# Webpage Template
+# Leap Year
 
-#### template to be used for creating new websites, 1-9-18
+#### determines if a given year is a leap year, 1-17-18
 
-#### _By Sara Hamilton_
+#### _By Sara Hamilton and Maggie Summers_
 
 ## Description
 
-_{This is a detailed description of your application, its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This program uses JavaScript to determine if a given year is a leap year._
+
+1. The program should return when a year is not a leap year.
+..* Input Example: 1993
+..* Output Example: false
+2. The program should return 'true' for years divisible by 4, since those are leap years.
+..* Input Example: 2004
+..* Output Example: true
+3. The program should return 'false' for years divisible by 100, since those are not leap years.
+..* Input Example: 1900
+..* Output Example: false
+4. The program should return 'true' for years divisible by 400, since those are leap years.
+..* Input Example: 2000
+..* Output Example: true
 
 ## Setup/Installation Requirements
 
-* _Create a new repository in GitHub_
-```
-https://github.com/user-name/new-repository-name.git
-```
+* _Clone repository
 
-* _Create a bare clone of this repository_
-```
-git clone --bare https://github.com/Sara-Hamilton/template.git
-```
+* _Open in text editor_
 
-* _Move into the template directory_
-```
-cd template.git
-```
+* _Open in Browser_
 
 * _Mirror push to the new repository_
-```
-git push --mirror https://github.com/user-name/new-repository-name.git
-```
 
 ## Support and contact details
 
@@ -45,7 +46,7 @@ _To suggest changes, submit a pull request in the GitHub repository._
 
 *MIT License*
 
-Copyright (c) 2018 **_Sara Hamilton_**
+Copyright (c) 2018 **_Sara Hamilton and Maggie Summers_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
